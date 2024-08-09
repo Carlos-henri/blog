@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    background-color: #fff(156, 148, 161);
+    color: #fff;
+}
+
+a, a:hover, a:visited {
+    color: unset;
+    text-decoration: none;
+}
+
+header {
+    background: linear-gradient(180deg, #3c6fcf 0%, #fff 100%);
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.BGInformativo-logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.BGInformativo-logo-container img {
+    width: 235px;
+}
+
+.BGInformativo-logo-container h1 {
+    margin-top: 14.73px;
+    font-size: 24px;
+}
+
+.BGInformativo-logo-container p {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.BGInformativo-card {
+    background: linear-gradient(180deg, #3c6fcf 0%, #fff 100%);
+    border-radius: 10px;
+    padding: 30px 10px;
+}
+
+.BGInformativo-container {
+    width: 100%;
+    max-width: 893px;
+    margin: 0 auto;
+} 
+
+#sales {
+    padding: 40px 10px;
+}
+
+.BGInformativo-title {
+    color: linear-gradient(180deg, #3c6fcf 0%, #fff 100%);
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20.84px;
+}
+
+.BGInformativo-caledario-container {
+    margin-bottom: 16px;
+    max-width: 300px;
+}
+
+.BGInformativo-form-control {
+    width: 100%;
+    height: 46px;
+    background: #3c6fcf;
+    border: 1px solid #384459;
+    border-radius: 5px;
+    color: #9AAABE;
+    padding: 0 21.33px;
+    font-size: 18px;
+}
+
+.BGInformativo-news-info {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.BGInformativo-news-info thead {
+    height: 55px;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 700;
+}
+
+.BGInformativo-news-info tbody {
+    font-size: 14px;
+    font-weight: 400;
+    color:#9AAABE;
+    text-align: center;
+}
+
+.BGInformativo-news-info tbody tr {
+    height: 74px;
+    border-top: 1px solid #242C3B;
+}
+
+.BGInformativo-news-info tbody tr:hover > th {
+    background-color: #242C3B;
+}
+
+.BGInformativo-news-info tbody tr:nth-child(odd) {
+    background-color: #242C3B;
+}
+
+.BGInformativo-news img{
+    width: 15%;
+    height: auto;
+}
+
+.show576{
+    display: none;
+}
+
+.show992{
+    display: none;
+}
+
+@media (min-width: 576px){
+    .show576{
+        display: table-cell;
+    }
+    
+    .BGInformativo-card{
+        padding: 35px 32px;
+    }
+
+    .BGInformativo-news-info tbody tr {
+        height: 52px;
+    }
+
+    .BGInformativo-news-info tbody {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 992px){
+    .show992{
+        display: table-cell;
+    }
+}
+
+:root{
+    --cor-padrao: #c380d6;
+    --cor-footer: #BFD641;
+
+
+}
+ 
